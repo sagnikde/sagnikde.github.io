@@ -1,0 +1,22 @@
+
+.navtab{
+    color : white;
+    border-radius: 0px;
+    font-size: 26px;
+}
+
+#hometab {
+    background: darkolivegreen;
+}
+
+#rockettab {
+    background: darkcyan;
+}
+
+#weathertab {
+    background: darkmagenta;
+}
+
+#abouttab {
+    background: pink;
+}
