@@ -23,6 +23,12 @@
     background: darksalmon;
 }
 
+#content {
+    /* margin: 0 auto; */
+    max-width: 1280px;
+    border: 5px solid red;
+    background-color: #ccc;
+}
 .centerlocation {
     position: relative;
     justify-content: center;
