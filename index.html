@@ -15,17 +15,19 @@
 
 <body>
   <div class="row centerlocation">
+    <div id="navigationpaddingleft" class="col-1"></div>
     <div id="navigationtabs" class="col-1">
       <nav class="nav flex-column">
-        <button id="hometab" class="btn navtab" onclick="tabclicked('home')">Home</button>
-        <button id="rockettab" class="btn navtab" onclick="tabclicked('rocket')">Rocket</button>
-        <button id="weathertab" class="btn navtab" onclick="tabclicked('weather')">Weather</button>
-        <button id="abouttab" class="btn navtab" onclick="tabclicked('about')">About</button>
+        <button id="hometab" class="btn navtab" onclick="tabclicked('hometab')">Home</button>
+        <button id="rockettab" class="btn navtab" onclick="tabclicked('rockettab')">Rocket</button>
+        <button id="weathertab" class="btn navtab" onclick="tabclicked('weathertab')">Weather</button>
+        <button id="abouttab" class="btn navtab" onclick="tabclicked('abouttab')">About</button>
       </nav>
     </div>
     <div id="content" class="col-9 tab-content">
-
+        <h1>This is some content</h1>
     </div>
+    <div id="navigationpaddingright" class="col-1"></div>
   </div>
 
 
@@ -46,6 +48,7 @@
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"
     integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k"
     crossorigin="anonymous"></script>
+  <script src="jsstuff/navigation.js"></script>
 </body>
 
 </html>
