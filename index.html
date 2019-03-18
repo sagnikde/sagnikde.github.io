@@ -14,21 +14,22 @@
 </head>
 
 <body>
-  <div class="row centerlocation">
-    <div id="navigationpaddingleft" class="col-1"></div>
-    <div id="navigationtabs" class="col-xs-1">
-      <nav class="nav flex-column">
+  <div id="navandcon" class="d-flex flex-row">
+    <div id="navigation" class="d-flex flex-column my-auto">
         <button id="hometab" class="btn navtab" onclick="tabclicked('hometab')">Home</button>
         <button id="rockettab" class="btn navtab" onclick="tabclicked('rockettab')">Rocket</button>
         <button id="weathertab" class="btn navtab" onclick="tabclicked('weathertab')">Weather</button>
         <button id="abouttab" class="btn navtab" onclick="tabclicked('abouttab')">About</button>
-      </nav>
     </div>
-    <div id="content" class="col-9 tab-content">
+    <div id="content" class="container">
+      <div>
           <h1>This is some content</h1>
-    </div>
-    <div id="navigationpaddingright" class="col-1"></div>
+      </div>
+        
+    </div> 
   </div>
+
+  
 
 
 

@@ -25,12 +25,21 @@
 
 #content {
     /* margin: 0 auto; */
-    max-width: 1280px;
-    border: 5px solid red;
+    min-width: 1280px;
     background-color: #ccc;
+    height: 100vh;
+    flex: 1;
+    border-left: 
 }
 .centerlocation {
-    position: relative;
+    position: absolute;
     justify-content: center;
     transform: translateY(50%);
 }
+
+html { height: 100%; }
+
+body {
+    height: 100%;
+    margin: 0
+  }
